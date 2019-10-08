@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: block;
+    background-color: black;
+    height: 100px;
+    width: 800px;
+}
+.game_box{
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    width: 800px;
+    font-size: 0;
+    background-color: black;
+}
+.footer{
+    display: block;
+    background-color: black;
+    height: 100px;
+    width: 800px;
+}
+.block{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+.coin{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url("coin.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.player{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url("pacman.gif");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.empty{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
